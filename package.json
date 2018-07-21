@@ -19,7 +19,7 @@
     "lint": "vue-cli-service lint",
     "pack": "vue-cli-service build --target lib --name VueGoogleRecaptcha ./src/components/GoogleRecaptcha.vue"
   },
-  "main": "./dist/VueGoogleRecaptcha.common.js",
+  "main": "src/components/GoogleRecaptcha.vue",
   "files": [
     "dist/*.js",
     "dist/*.js.map",
